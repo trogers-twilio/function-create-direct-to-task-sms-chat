@@ -1,0 +1,30 @@
+{
+  "name": "function-create-direct-to-task-sms-chat",
+  "version": "1.0.0",
+  "description": "Creates a direct to task chat channel and a proxy session to support sending/receiving SMS messages in Flex chat UI",
+  "main": "functions/create-direct-to-task-sms-chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trogers-twilio/function-create-direct-to-task-sms-chat.git"
+  },
+  "author": "Terence Rogers (Twilio)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trogers-twilio/function-create-direct-to-task-sms-chat/issues"
+  },
+  "homepage": "https://github.com/trogers-twilio/function-create-direct-to-task-sms-chat#readme",
+  "dependencies": {
+    "js-base64": "^2.5.1",
+    "node-fetch": "^2.6.0",
+    "uuid": "^3.3.2",
+    "twilio": "^3.31.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
