@@ -9,11 +9,9 @@ const verifyEventProps = (event) => {
     success: false,
   };
 
-  const { fromName, fromNumber, toName, toNumber } = event;
+  const { fromNumber, toName, toNumber } = event;
 
-  if (!fromName) {
-    result.message = "Missing 'fromName' in request body";
-  } else if (!fromNumber) {
+  if (!fromNumber) {
     result.message = "Missing 'fromNumber' in request body";
   } else if (!toName) {
     result.message = "Missing 'toName' in request body";
@@ -95,7 +93,7 @@ const createChatChannelWithTask = (
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        Authorization: `Basic ${Base64.encode(`${context.ACCOUNT_SID}:${context.AUTH_TOKEN}`)}`
+        Authorization: `Basic ${Base64.encode(`${context.ACCOUNT_SID}:${context.AUTH_TOKEN}`)}`,
       },
       body: urlParams,
     });
