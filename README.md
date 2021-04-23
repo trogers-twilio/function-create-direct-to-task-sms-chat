@@ -187,6 +187,7 @@ curl -X POST \
   --data-urlencode "Integration.WorkflowSid=WWXXXXXX" \
   --data-urlencode "Integration.Channel=TCXXXXXX \
   --data-urlencode "LongLived=false" \
+  --data-urlencode "JanitorEnabled=true" \
  -u ACXXXXXX:XXXXXXX
  ```
 3. Here is an explanation of each parameter:
