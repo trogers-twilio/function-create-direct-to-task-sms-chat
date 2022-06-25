@@ -18,7 +18,7 @@
   "homepage": "https://github.com/trogers-twilio/function-create-direct-to-task-sms-chat#readme",
   "dependencies": {
     "js-base64": "^2.5.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "uuid": "^3.3.2",
     "twilio": "^3.31.1"
   },
